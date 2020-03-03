@@ -23,7 +23,7 @@
 		// Date Pickers
 		$('#datepicker-range, #datepicker-component, #datepicker-component2').datepicker();
 
-		$('#datepicker-embedded').datepicker({
+		$('#datepicker-embeded').datepicker({
 			daysOfWeekDisabled: "0,1"
 		});
 
@@ -73,7 +73,7 @@
 		$('#daterangepicker').daterangepicker({
 			timePicker: true,
 			timePickerIncrement: 30,
-			format: 'DD/MM/YYYY h:mm A'
+			format: 'MM/DD/YYYY h:mm A'
 		}, function (start, end, label) {
 			console.log(start.toISOString(), end.toISOString(), label);
 		});
