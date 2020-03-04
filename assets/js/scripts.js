@@ -32,9 +32,11 @@ $(document).ready(function() {
   $('#daterangepicker').daterangepicker({
     timePicker: true,
     timePickerIncrement: 30,
-    format: 'DD/MM/YYYY h:mm A'
+    format: 'MMM D YYYY, h:mm A'
   }, function (start, end, label) {
     console.log(start.toISOString(), end.toISOString(), label);
   });
+
+
 
 })
