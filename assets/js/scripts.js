@@ -38,8 +38,12 @@ $(document).ready(function() {
   });
 
   $(document).ready(function(e){
-      		$(".img-check").click(function(){
-  				$(this).toggleClass("check");
-  			});
-  	});
+    $(".img-check").click(function(){
+      $(this).toggleClass("check");
+    });
+  });
+
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
 })
