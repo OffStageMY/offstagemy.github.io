@@ -26,7 +26,6 @@
   <link href="assets/plugins/font-awesome/css/all.css" rel="stylesheet" type="text/css" />
   <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
   <link href="assets/plugins/bootstrap-daterangepicker/daterangepicker-bs3.css" rel="stylesheet" type="text/css" media="screen">
-  <link href="assets/css/checkbox.css" rel="stylesheet" type="text/css">
   <!-- Please remove the file below for production: Contains demo classes -->
   <link class="main-stylesheet" href="assets/css/style.css" rel="stylesheet" type="text/css" />
 </head>
@@ -808,45 +807,75 @@
           </div>
           <div class="col-md-7">
             <div class="padding-30 sm-padding-5">
-                  <h2 class="pull-left no-margin">Choose your Game</h2>
-                  <div class="container">
-                    <div class="col-xs-4 col-sm-3 col-md-2 nopad text-center">
-                      <label class="image-checkbox">
-                        <img class="img-responsive" src="https://dummyimage.com/600x400/000/fff" />
-                        <input type="checkbox" name="image[]" value="" />
-                        <i class="fa fa-check hidden"></i>
-                      </label>
-                    </div>
-                    <div class="col-xs-4 col-sm-3 col-md-2 nopad text-center">
-                      <label class="image-checkbox">
-                        <img class="img-responsive" src="https://dummyimage.com/600x400/000/fff" />
-                        <input type="checkbox" name="image[]" value="" />
-                        <i class="fa fa-check hidden"></i>
-                      </label>
-                    </div>
-                    <div class="col-xs-4 col-sm-3 col-md-2 nopad text-center">
-                      <label class="image-checkbox">
-                        <img class="img-responsive" src="https://dummyimage.com/600x400/000/fff" />
-                        <input type="checkbox" name="image[]" value="" />
-                        <i class="fa fa-check hidden"></i>
-                      </label>
-                    </div>
-                    <div class="col-xs-4 col-sm-3 col-md-2 nopad text-center">
-                      <label class="image-checkbox">
-                        <img class="img-responsive" src="https://dummyimage.com/600x400/000/fff" />
-                        <input type="checkbox" name="image[]" value="" />
-                        <i class="fa fa-check hidden"></i>
-                      </label>
-                    </div>
-                    <div class="col-xs-4 col-sm-3 col-md-2 nopad text-center">
-                      <label class="image-checkbox">
-                        <img class="img-responsive" src="https://dummyimage.com/600x400/000/fff" />
-                        <input type="checkbox" name="image[]" value="" />
-                        <i class="fa fa-check hidden"></i>
-                      </label>
+              <h3>Choose your Games</h3>
+              <div class="row row-same-height">
+                <div class="col-md-12">
+                  <div class="form-group form-group-default form-check-group d-flex align-items-center">
+                    <img src="assets\img\smash-m.png" height="50px" width="50px" class="m-r-15">
+                    <div class="form-check switch switch-lg success full-width right m-b-0">
+                      <input type="checkbox" id="melee" name="melee">
+                      <label for="melee">Super Smash Brothers Melee</label>
                     </div>
                   </div>
-            </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group form-group-default form-check-group d-flex align-items-center">
+                    <img src="assets\img\smash-4.webp" height="50px" width="50px" class="m-r-15">
+                    <div class="form-check switch switch-lg success full-width right m-b-0">
+                      <input type="checkbox" id="smash4" name="smash4">
+                      <label for="smash4">Super Smash Brothers 4</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group form-group-default form-check-group d-flex align-items-center">
+                    <img src="assets\img\smash-ult.jpg" height="50px" width="50px" class="m-r-15">
+                    <div class="form-check switch switch-lg success full-width right m-b-0">
+                      <input type="checkbox" id="smashu" name="smashu">
+                      <label for="smashu">Super Smash Brothers Ultimate</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h3>Choose your Formats</h3>
+              <div class="form-group-attached">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group form-group-default form-check-group d-flex align-items-center">
+                      <div class="form-check switch switch-lg success full-width right m-b-0">
+                        <input type="checkbox" id="switchSample">
+                        <label for="switchSample">Availability</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group form-group-default form-check-group d-flex align-items-center">
+                      <div class="form-check switch switch-lg success full-width right m-b-0">
+                        <input type="checkbox" id="switchSample">
+                        <label for="switchSample">Availability</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group form-group-default form-check-group d-flex align-items-center">
+                      <div class="form-check switch switch-lg success full-width right m-b-0">
+                        <input type="checkbox" id="switchSample">
+                        <label for="switchSample">Availability</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group form-group-default form-check-group d-flex align-items-center">
+                      <div class="form-check switch switch-lg success full-width right m-b-0">
+                        <input type="checkbox" id="switchSample">
+                        <label for="switchSample">Availability</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
           </div>
         </div>
       </div>

@@ -37,6 +37,9 @@ $(document).ready(function() {
     console.log(start.toISOString(), end.toISOString(), label);
   });
 
-
-
+  $(document).ready(function(e){
+      		$(".img-check").click(function(){
+  				$(this).toggleClass("check");
+  			});
+  	});
 })
