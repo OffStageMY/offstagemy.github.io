@@ -10,3 +10,7 @@
     border-radius: 4px;
     font-size: 13px;
   }
+
+  #nolmargin {
+    margin-left: 0px;
+  }

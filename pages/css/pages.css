@@ -1627,6 +1627,7 @@ body.menu-pin .overlay .overlay-brand {
   margin: 0;
   border: none;
   text-transform: uppercase;
+
 }
 
 .breadcrumb.breadcrumb-alt {
@@ -1658,6 +1659,7 @@ body.menu-pin .overlay .overlay-brand {
 .breadcrumb .breadcrumb-item {
   float: left;
   padding-left: 0px;
+  font-size: 12px;
 }
 
 .breadcrumb > .breadcrumb-item + .breadcrumb-item:before {
@@ -2820,7 +2822,7 @@ body {
   -moz-font-feature-settings: "kern" 1;
 }
 
-/* Headings 
+/* Headings
 ------------------------------------
 */
 h1,
@@ -3247,7 +3249,7 @@ kbd {
   box-shadow: 0px 2px 0px 1px #c7c7c7, 0px 1px 0px 1px rgba(0, 0, 0, 0.15), 0px 0px 0px 1px #ececec;
 }
 
-/* Types 
+/* Types
 ------------------------------------
 */
 .overline {
@@ -3257,7 +3259,7 @@ kbd {
   font-size: 11px;
 }
 
-/* Font Sizes 
+/* Font Sizes
 ------------------------------------
 */
 .small-text {
@@ -3297,7 +3299,7 @@ kbd {
   font-weight: 300 !important;
 }
 
-/* Misc 
+/* Misc
 ------------------------------------
 */
 .logo {
@@ -3393,7 +3395,7 @@ kbd {
   color: #4b4b4b;
 }
 
-/* Complete 
+/* Complete
 ------------------------------------
 */
 .bg-complete {
@@ -3421,7 +3423,7 @@ kbd {
   color: #4b4b4b;
 }
 
-/* Success 
+/* Success
 ------------------------------------
 */
 .bg-success {
@@ -3477,7 +3479,7 @@ kbd {
   color: #4b4b4b;
 }
 
-/* Danger 
+/* Danger
 ------------------------------------
 */
 .bg-danger {
@@ -3533,7 +3535,7 @@ kbd {
   color: #4b4b4b;
 }
 
-/* Menu 
+/* Menu
 ------------------------------------
 */
 .bg-menu-dark {
@@ -3911,7 +3913,7 @@ z = font size
   line-height: 1.42857143;
 }
 
-/* For Windows : Fixes 
+/* For Windows : Fixes
 ------------------------------------
 */
 .windows .small-text, .windows small, .windows .small {
@@ -4734,7 +4736,7 @@ Button Groups
 }
 
 /*
-Button with content aligned to column 
+Button with content aligned to column
 --------------------------------------------------
 */
 .btn-flex-column {
@@ -5858,7 +5860,7 @@ body.horizontal-app-menu .pgn-wrapper {
   margin-bottom: 4px;
 }
 
-/* Simple 
+/* Simple
 ------------------------------------
 */
 .pgn-simple .alert {
@@ -5871,7 +5873,7 @@ body.horizontal-app-menu .pgn-wrapper {
   overflow: hidden;
 }
 
-/* Bar 
+/* Bar
 ------------------------------------
 */
 .pgn-bar {
@@ -5942,7 +5944,7 @@ body.horizontal-app-menu .pgn-wrapper {
   }
 }
 
-/* Circle 
+/* Circle
 ------------------------------------
 */
 .pgn-circle .alert {
@@ -6062,7 +6064,7 @@ body.horizontal-app-menu .pgn-wrapper {
   }
 }
 
-/* Flip 
+/* Flip
 ------------------------------------
 */
 .pgn-wrapper[data-position^="bottom-"] .pgn-flip .alert {
@@ -6409,7 +6411,7 @@ body > .pgn-wrapper {
   background-color: #3B4752;
 }
 
-/* Circular Progress : indeterminate 
+/* Circular Progress : indeterminate
 ------------------------------------
 */
 .progress-circle-indeterminate {
@@ -6444,7 +6446,7 @@ body > .pgn-wrapper {
   background-image: url("../img/progress/progress-circle-complete.svg");
 }
 
-/* Circular Progress 
+/* Circular Progress
 ------------------------------------
 */
 .progress-circle {
@@ -6635,7 +6637,7 @@ body > .pgn-wrapper {
   -ms-flex-negative: 0;
 }
 
-/* Tabs : Simple 
+/* Tabs : Simple
 ------------------------------------
 */
 .nav-tabs-simple {
@@ -6852,7 +6854,7 @@ body > .pgn-wrapper {
   }
 }
 
-/* Tabs : Fill-up 
+/* Tabs : Fill-up
 ------------------------------------
 */
 .nav-tabs-fillup {
@@ -7276,7 +7278,7 @@ body > .pgn-wrapper {
   /*&.in{
 				.modal-dialog{
 					@include translate3d(0,0,0);
-				}	
+				}
 			}*/
 }
 
@@ -12642,7 +12644,7 @@ div.cs-skin-slide .cs-options ul li.cs-selected span {
 /*------------------------------------------------------------------
 [16. Tables and Datatables]
 */
-/* Generic Tables 
+/* Generic Tables
 ------------------------------------
 */
 .table {
@@ -12819,7 +12821,7 @@ div.cs-skin-slide .cs-options ul li.cs-selected span {
   margin-bottom: 0 !important;
 }
 
-/* Data-tables 
+/* Data-tables
 ------------------------------------
 */
 .table.dataTable.no-footer {
@@ -15320,7 +15322,7 @@ Responsive Util
   top: 50%;
 }
 
-/* Responsive Handlers : Lockscreen 
+/* Responsive Handlers : Lockscreen
 ------------------------------------
 */
 @media (max-width: 767px) {
@@ -15357,7 +15359,7 @@ Responsive Util
   Adapted from Vertical Timeline by Sebastiano Guerriero
   http://codyhouse.co/gem/vertical-timeline/
 */
-/* -------------------------------- 
+/* --------------------------------
 
 Modules - reusable parts of our design
 
@@ -15387,9 +15389,9 @@ Modules - reusable parts of our design
   z-index: 10;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-Main components 
+Main components
 
 -------------------------------- */
 .timeline {
@@ -18242,7 +18244,7 @@ Main components
   height: 35px;
 }
 
-/* Demo Widths For GIF Animations 
+/* Demo Widths For GIF Animations
 ------------------------------------
 */
 .demo-bg-hinted {
