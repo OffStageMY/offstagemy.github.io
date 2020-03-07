@@ -15,6 +15,11 @@
     margin-left: 0px;
   }
 
-.thumbnail-wrapper.d20 {
-  line-height: 20px;
+path {
+  fill: #cccccc;
+}
+
+path:hover {
+  cursor: pointer;
+  fill: #dc3545;
 }
