@@ -403,12 +403,14 @@
                                   <label>Address</label>
                                   <input type="text" class="form-control">
                                 </div>
+
                                 <div class="row clearfix">
                                   <div class="col-sm-6">
                                     <form class="m-t-10" role="form">
-                                      <div class="form-group form-group-default form-group-default-select2 required">
-                                        <label class="">Country</label>
-                                        <select class="full-width" data-placeholder="Select Country" data-init-plugin="select2">
+                                      <div class="form-group form-group-default form-group-default-select2 d-flex required">
+                                        <label for="country" class="">Country</label>
+                                        <select class="full-width" data-init-plugin="select2" data-placeholder="Select Country..." id="country">
+                                          <option></option>
                                           <optgroup label="Asia">
                                             <option value="BD">Bangladesh</option>
                                             <option value="BT">Bhutan</option>
